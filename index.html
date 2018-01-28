@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link  rel="stylesheet" href="css/style.css" >
+<link rel="stylesheet" href="css/animate.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<style>
+
+.cvbtn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #c7c7c7;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: yellowgreen;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border-color: transparent;
+}
+
+.cvbtn:hover {
+  background: #4dbf2a;
+  text-decoration: none;
+}
+
+.pic {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+.magic {
+  z-index: -1;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background: url("images/myscreen.jpg") 25% 25% no-repeat fixed;
+ 
+  background-size: cover;
+  border-radius: 50%;
+  color:black;
+}
+
+#section01 a {
+  padding-top: 70px;
+}
+#section01 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb01 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb01 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb01 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+
+#section02 a {
+  padding-top: 70px;
+}
+#section02 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  margin-top: 12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb02 1.5s infinite;
+  animation: sdb02 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb02 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb02 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+
+#section03 a {
+  padding-top: 70px;
+}
+#section03 a span {
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  margin-top: 22px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb03 1.5s infinite;
+  animation: sdb03 1.5s infinite;
+  animation-delay: 4s;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.educationbox{
+margin-bottom: 100px;
+}
+
+.scrolldown{
+	position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="nav-panel">
+            <div class="container" >
+					<div class="menu-info-inline data-left"><i class="fa fa-globe"></i>Singapore</div>
+                    <div id="portfolio" class="menu-info-inline data-right"><i class="fa fa-suitcase"></i>Portfolio</div>
+					<div class="menu-info-inline data-right" style="background:salmon;"><i class="fa fa-home"></i>Home</div>
+            </div>
+</div>
+
+<div style="margin-top: 20px;text-align: center;min-width: 400px;height: 700px;">
+<div class= "descriptionbox">
+<img src="images/mypic.jpg" class="profilepic"/>
+<p class="namebox">
+Thirumal Dhanasekaran
+ <ul class="designationtag">
+<li class="tag one">#Software Engineer</li>
+<li class="tag two">#Programmer</li>
+<li class="tag three">#Developer</li>
+<li class="tag four">#FreeLancer</li>
+</ul> 
+</p>
+ <a href="data/Thirumal_Resume.pdf" class="textappearsync invisible"" download><button type="button" class="cvbtn">Download CV</button></a>
+<!--
+ <div id="about-card" class="card" style="background-color:rgba(0,0,0,0.3);color: white;margin: 20px;">
+                    <div class="card-content">
+                        <!-- ABOUT PARAGRAPH -->
+                <!--        <p>
+                            Hi! I am a Software Developer having an overall experience of 3 years
+							in developing software applications and providing business solutions by building effective products.
+                            I am currently pursuing my Masters in National University of Singapore and specializing in full stack development.
+                        </p>	
+                    </div>
+
+                   <!-- BUTTONS -->
+                  <!--   <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <!-- DOWNLOAD CV BUTTON -->
+                          
+                            <!-- CONTACT BUTTON -->
+                     <!--        <a href="#contact" class="btn waves-effect">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+				
+				-->
+
+<section id="section01" class="demo scroller">
+ <a href="#section01"><span></span></a>
+</section>
+
+<section id="section02" class="demo scroller">
+  <a href="#section02"><span></span></a>
+</section>
+
+<section id="section03" class="demo scroller">
+  <a href="#section03"><span></span></a>
+</section>
+
+<h3 style="color: white; margin-top: 100px;" class="textappearsync invisible">Scroll Down to know more about me</h3>
+</div>
+
+
+
+
+<div class="contactbox">
+        	<h2 style="margin-bottom:10px;">Quick References</h2>
+            <ul id="contact" class="contact">               
+               <li class="mobile"><i class="fa fa-mobile"></i><a href="#" style="cursor:text;">+65 92724581</a></li>        		
+        		<li class="mail"><i class="fa fa-envelope"></i><a href="#">thiruclassic@gmail.com</a></li>
+                                
+                <li class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i><a href="#">https://www.linkedin.com/in/thirumal-dhanasekaran-6a572334/</a></li>
+				 <li class="skype"><i class="fa fa-skype" aria-hidden="true"></i><a href="#">thiruclassic</a></li>
+               <!-- <li class="yahoo"><a href="mailto:prakashgcom@yahoo.com">prakashgcom@yahoo.com</a></li>
+        		<li class="gmail"><a href="mailto:prakashgcom@gmail.com">prakashgcom@gmail.com</a></li>                
+                <li class="msn"><a href="mailto:prakashgcom@outlook.com">prakashgcom@outlook.com</a></li>
+                
+                <li class="blog"><a href="http://www-prakashg-com.blogspot.in/" target="_blank">www-prakashg-com.blogspot.in</a></li>                
+                <li class="about"><a href="http://about.me/prakashgcom" target="_blank">about.me/prakashgcom</a></li>
+                
+                <li class="fb"><a href="https://www.facebook.com/prakashgcom" target="_blank">www.facebook.com/prakashgcom</a></li>
+                <li class="twitter"><a href="https://www.twitter.com/prakashgcom" target="_blank">www.twitter.com/prakashgcom</a></li>
+                <li class="in"><a href="http://www.linkedin.com/in/prakashgcom" target="_blank">www.linkedin.com/in/prakashgcom</a></li>             
+                <li class="pin"><a href="http://www.pinterest.com/prakashgcom/" target="_blank">www.pinterest.com/prakashgcom</a></li>                   		
+                <li class="gmail last"><a href="https://plus.google.com/118212550722960511757" target="_blank">Google+/prakashgcom</a></li>    -->            
+                                
+            </ul>
+        <!--  <a href="contact-me.php" class="more" title="www.prakashg.com">» more</a> -->
+        </div>
+		
+	
+		
+
+</div>
+
+
+
+
+
+<div class="experiencebox">
+<h2 style="color:white;text-align:center;">Experience</h2>
+<div class="timeline">
+  <div class="timelinecontainer timelineleft experiencecontainer1 invisible">
+ 
+    <div class="timelinecontent">
+      <h3>Software Developer Intern</h3>
+	  <h3>CPR Vision</h3>
+      <h3>Aug 2017 - Present</h3>
+    </div>
+  </div>
+  <div class="timelinecontainer timelineright experiencecontainer2 invisible">
+    <div class="timelinecontent">
+      <h3>Project Engineer</h3>
+	  <h3>Wipro Technologies Limited</h3>
+	  <h3>Anna University</h3>
+      <h3>Apr 2014 - Dec 2016</h3>
+    </div>
+  </div>
+  <div class="timelinecontainer timelineleft experiencecontainer3 invisible">
+    <div class="timelinecontent">
+      <h3>Academic Java Trainer (Part-Time)</h3>
+	  <h3>NIIT Limited,Chennai</h3>
+	  <h3>Oct 2013 - Dec 2017</h3>
+    </div>
+  </div>
+ 
+</div>
+
+</div>
+
+
+
+
+<!--
+<div>
+
+ <p class="divSE1 opaque">#Software Engineer </p>
+<p class="divSE2">#Software Engineer </p> -->
+
+<!-- <p class="divSE1 opaque">#Developer</p> -->
+<!--<p class="Dev1">#Developer </p>
+<p class="Dev2">#Developer </p> 
+
+
+</div>
+
+
+<div class="scene">
+  <div class="magic"></div>
+</div>
+-->
+
+<div class="educationbox">
+<h2 style="color:white;text-align:center;">Education</h2>
+<div class="timeline">
+  <div class="timelinecontainer timelineleft  educationcontainer1 invisible">
+ 
+    <div class="timelinecontent">
+      <h3>M.Tech(Software Engineering)</h3>
+	  <h3>National University Of Singapore</h3>
+      <h3>Jan 2017 - Present</h3>
+    </div>
+  </div>
+  <div class="timelinecontainer timelineright educationcontainer2 invisible">
+    <div class="timelinecontent">
+      <h3>B.E(Electronics & Communication)</h3>
+	  <h3>Velammal Engineering College</h3>
+	  <h3>Anna University</h3>
+      <h3>Aug 2009 - May 2013</h3>
+    </div>
+  </div>
+  <div class="timelinecontainer timelineleft educationcontainer3 invisible">
+    <div class="timelinecontent">
+      <h3>Secondary School Education</h3>
+	  <h3>Anna Gem Science Park School</h3>
+	  <h3>1995 - 2009</h3>
+    </div>
+  </div>
+ 
+</div>
+</div>
+
+<div class="skillsbox" style="width: 100%;background-color:rgba(0,0,0,0.5);text-align:center;height:100%">
+<h2 style="color:white;text-align:center">Technical Skills</h2>
+<img class="skill1 invisible" src="images/java_logo.png" class="" width="200" height="150" />
+<img class="skill1 invisible" src="images/j2ee.png" />
+<img class="skill1 invisible" src="images/springlogo.webp" width="300" height="200"/>
+<img class="skill1 invisible" src="images/hibernate.png"/>
+<img class="skill2 invisible" src="images/SAPHybris.png"/>
+<img class="skill2 invisible" src="images/javascript_logo.png" width="300" height="300"/>	
+<img class="skill2 invisible" src="images/html5.ico"/>
+<img class="skill2 invisible roundpic" src="images/jaxrs.png" width="200" height="100"/>
+<img class="skill3 invisible roundpic" src="images/jms.png" width="200" height="100"/>
+<img class="skill3 invisible" src="images/nodejs.png" width="200" height="100"/>
+<img class="skill3 invisible" src="images/mysql.png" width="200" height="100"/>
+<img class="skill3 invisible roundpic" src="images/oraclesql.jpg" width="200" height="100"/>
+</div>
+
+</body>
+	
+</html>
