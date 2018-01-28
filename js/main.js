@@ -36,7 +36,7 @@ $(".textappearsync").addClass("animated fadeInUp");
 $('.scroller').on('click', function(){
    //window.location.href = "portfolio.html";
  
-      $('html, body').animate({scrollTop: $('.educationbox').offset().top }, 'slow');
+     // $('html, body').animate({scrollTop: $('.educationbox').offset().top }, 'slow');
     
    
 });
