@@ -157,7 +157,7 @@ display: block;
 	background-color: rgba(0,0,0,0.3);
     border-radius: 15px;
 	font-family: cursive;
-	font-size: 11px;
+	font-size: 12px;
 	text-align: initial;
     display: inline-table;
 	float: right;
@@ -511,6 +511,14 @@ display: block;
 .timelineleft {
     left: 0%;
 }
+
+.tag{
+    float: none;       
+}
+
+.profilecontainer{
+    min-height: 900px;
+}
 }
 
 
@@ -708,6 +716,14 @@ margin-bottom: 100px;
     position: relative;
     float: right;
     margin-right: 20px;
+}
+
+.profilecontainer{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 700px;
 }
 
 
